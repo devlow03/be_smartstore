@@ -20,7 +20,11 @@ db.connect((error)=>{
 
 route(app)
 
+// app.get('/',(req,res)=>{
+//     res.send("QUANG THIỆN")
+// })
 
-app.listen(8000, () => {
+
+app.listen(8008, () => {
     console.log("Sever is running")
 })
